@@ -14,15 +14,10 @@ Welcome to the official repository of the **DevHive Club**! This project contain
 ## 📁 Project Structure
 
 ```devhive-club/
-├── backend/               # Backend code (APIs, server, database)
-│   ├── config/            # Configuration files
-│   ├── controllers/       # Request handlers
-│   ├── models/            # Database models
-│   ├── routes/            # API routes
-│   └── app.js             # Express application
+├── backend/               # Backend code (APIs, server, database)             
 ├── frontend/              # Frontend code (UI, components, pages)
-│   ├── public/            # Static files
-│   └── src/               # React components and pages
+│   ├── public/            # Pages files
+│   └── src/               # components and pages
 ├── assets/                # Images and other static assets
 └── README.md              # This file
 ```
