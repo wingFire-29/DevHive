@@ -11,3 +11,11 @@ devhive-club/
 ├── backend/        # Backend code (APIs, server, database)
 ├── frontend/       # Frontend code (UI, components, pages)
 ├── assets/         # for Images
+
+
+
+## 🌳 Branch Structure
+
+main/ → Contains overall documentation, assets, and shared files
+frontend/ → Contains the complete frontend codebase (UI, components, pages)
+backend/ → Contains the complete backend codebase (API, server, database)
