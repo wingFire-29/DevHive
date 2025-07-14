@@ -1,4 +1,4 @@
-import { Calendar, Image, Users, Zap, Brain, Rocket, Star } from 'lucide-react';
+import { Calendar, Image as ImageIcon, Users, Zap, Brain, Rocket, Star } from 'lucide-react';
 
 function App() {
   return (
@@ -8,10 +8,10 @@ function App() {
         <div className="floating-tag absolute top-40 left-10 bg-gradient-to-r from-purple-700 to-gray-700 px-3 py-1 rounded-full text-sm font-medium animate-float-1">
           C++
         </div>
-        <div className="floating-tag absolute top-32 right-20 bg-gradient-to-r from-blue-700 to-cyan-700 px-3 py-1 rounded-full text-sm font-medium animate-float-2">
+        <div className="floating-tag absolute top-60 right-20 bg-gradient-to-r from-blue-700 to-cyan-700 px-3 py-1 rounded-full text-sm font-medium animate-float-2">
           DSA
         </div>
-        <div className="floating-tag absolute top-60 left-1 bg-gradient-to-r from-blue-700 to-purple-700 px-3 py-1 rounded-full text-sm font-medium animate-float-3">
+        <div className="floating-tag absolute top-60 left-60 bg-gradient-to-r from-blue-700 to-purple-700 px-3 py-1 rounded-full text-sm font-medium animate-float-3">
           C
         </div>
         <div className="floating-tag absolute bottom-40 right-1/4 bg-gradient-to-r from-green-700 to-emerald-700 px-3 py-1 rounded-full text-sm font-medium animate-float-4">
@@ -29,7 +29,7 @@ function App() {
       <nav className="relative z-10 flex items-center justify-between p-6 backdrop-blur-sm ">
         <div className="flex items-center space-x-2 group">
           <div className="p-2 bg-gradient-to-r from-black to-black rounded-lg transform group-hover:rotate-12 transition-transform duration-300">
-          <img src='logo.png' alt="DevHive" />
+          <img src="/logo.png" alt="DevHive" className="w-12 h-12" />
           </div>
           <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
             DevHive Club
@@ -107,7 +107,7 @@ function App() {
               
               <div className="absolute -right-20 bottom-10 w-32 h-20 bg-gradient-to-r from-blue-700/10 to-cyan-700/10 backdrop-blur-sm border border-white/5 rounded-xl transform rotateY--20 rotateX--10 hover:rotateY--25 transition-transform duration-500 hidden lg:block">
                 <div className="flex items-center justify-center h-full">
-                  <Image className="w-6 h-6 text-blue-500" />
+                  <ImageIcon className="w-6 h-6 text-blue-500" />
                 </div>
               </div>
             </div>
